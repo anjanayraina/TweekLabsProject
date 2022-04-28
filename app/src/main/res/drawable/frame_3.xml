@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    android:width="318dp"
+    android:height="49dp"
+    android:viewportWidth="318"
+    android:viewportHeight="49"
+</selector>

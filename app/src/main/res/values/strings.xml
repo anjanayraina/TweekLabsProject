@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TweekLabsProject</string>
+    <string name="forgot_pass">forgot_pass?</string>
+    <string name="password">Password</string>
+</resources>

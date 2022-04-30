@@ -22,6 +22,7 @@
         app:srcCompat="@drawable/tweeklabs" />
 
     <com.google.android.material.textfield.TextInputEditText
+       android:inputType="phone"
         android:id="@+id/phoneNumber"
         android:layout_width="317dp"
         android:layout_height="48dp"
@@ -39,6 +40,7 @@
         app:layout_constraintVertical_bias="0.146" />
 
     <com.google.android.material.textfield.TextInputEditText
+      android:inputType="textPassword"
         android:id="@+id/password"
         android:layout_width="317dp"
         android:layout_height="48dp"
@@ -71,6 +73,53 @@
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.252"
+        app:srcCompat="@drawable/signin" />
+
+    <TextView
+        android:id="@+id/don_t_have_"
+        android:layout_width="174dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/don_t_have_"
+        android:textAppearance="@style/don_t_have_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="39dp"
+        android:gravity="top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        android:textColor="#FF7955"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/don_t_have_"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
